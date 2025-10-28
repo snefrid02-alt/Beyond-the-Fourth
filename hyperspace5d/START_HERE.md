@@ -77,19 +77,25 @@ We've prepared comprehensive documentation. Here's where to start:
 
 ---
 
-## 🏆 The Three Levels
+## 🏆 The Eleven Levels
 
-### Level 1: Introduction
-Learn to rotate dimensions. Find the hidden platform!
+### Early Game (Levels 1-3)
+**Introduction to 5D**: Basic mechanics, dimension rotation, simple mazes
 **Difficulty**: ⭐☆☆
 
-### Level 2: Moving Platforms
-Time your jumps as platforms move through hidden dimensions.
+### Mid Game (Levels 4-7)
+**Advanced Puzzles**: Pentacube maze, dimensional bridges, portals, phase objects
 **Difficulty**: ⭐⭐☆
 
-### Level 3: Hypercube Maze
-Navigate a maze where walls exist in some views but not others.
+### Late Game (Levels 8-10)
+**Mastery Required**: Rotation locks, temporal echoes, hypersurface walking
 **Difficulty**: ⭐⭐⭐
+
+### Boss (Level 11)
+**The Pentarch**: Epic 5D boss fight with 5 cores, dynamic arena, and all mechanics!
+**Difficulty**: ⭐⭐⭐⭐⭐
+
+**See [LEVEL_DESIGN.md](LEVEL_DESIGN.md) for detailed walkthrough!**
 
 ---
 
@@ -177,9 +183,9 @@ By playing HyperSpace5D, you'll gain intuition about:
 |--------|-------|
 | Dimensions | 5 (X, Y, Z, W, V) |
 | Possible Views | 10 |
-| Levels | 3 |
-| Lines of Code | 2,304 |
-| Documentation | 6 guides |
+| Levels | **11** (including boss!) |
+| Lines of Code | 7,000+ |
+| Documentation | 8 comprehensive guides |
 
 ---
 

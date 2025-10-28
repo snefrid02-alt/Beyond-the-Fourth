@@ -80,6 +80,14 @@ hyperspace5d/
 - [x] Level 1: Introduction to dimension rotation
 - [x] Level 2: Moving platforms through dimensions
 - [x] Level 3: Hypercube maze with dimensional walls
+- [x] Level 4: Pentacube maze (all 10 views)
+- [x] Level 5: Dimensional bridges (mid-air switching)
+- [x] Level 6: Hyperspace portals (5D topology)
+- [x] Level 7: Phase objects (hypervolume interaction)
+- [x] Level 8: 5D rotation puzzles (combination locks)
+- [x] Level 9: Temporal echoes (V-dimension trails)
+- [x] Level 10: Hypersurface walking (4D surfaces)
+- [x] Level 11: The Pentarch (epic boss fight!)
 
 #### UI & Feedback ✅
 - [x] ImGui debug interface

@@ -1,3 +1,8 @@
+/*
+ * This is free and unencumbered software released into the public domain.
+ * For more information, please refer to <http://unlicense.org/>
+ */
+
 #pragma once
 
 #include "../engine/Player5D.hpp"
@@ -5,6 +10,9 @@
 #include "../engine/Renderer.hpp"
 #include "../core/DimensionState.hpp"
 #include "Level.hpp"
+#include "AdvancedLevels.hpp"
+#include "AdvancedLevels2.hpp"
+#include "BossLevel.hpp"
 #include <memory>
 #include <vector>
 #include <fstream>
@@ -73,10 +81,18 @@ public:
     {
         for (int i = 0; i < 1024; ++i) keys[i] = false;
         
-        // Initialize levels
+        // Initialize levels - 11 total levels now!
         levels.push_back(std::make_unique<Level1>());
         levels.push_back(std::make_unique<Level2>());
         levels.push_back(std::make_unique<Level3>());
+        levels.push_back(std::make_unique<Level4_PentacubeMaze>());
+        levels.push_back(std::make_unique<Level5_DimensionalBridges>());
+        levels.push_back(std::make_unique<Level6_HyperspaceTeleportation>());
+        levels.push_back(std::make_unique<Level7_PhaseObjects>());
+        levels.push_back(std::make_unique<Level8_RotationPuzzles>());
+        levels.push_back(std::make_unique<Level9_TemporalEchoes>());
+        levels.push_back(std::make_unique<Level10_HypersurfaceWalking>());
+        levels.push_back(std::make_unique<Level11_ThePentarch>());  // Boss level!
         
         player.setDimensionState(&dimState);
     }

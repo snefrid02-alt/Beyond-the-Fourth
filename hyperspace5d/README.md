@@ -107,20 +107,61 @@ make -j$(nproc)
 
 ## Levels
 
-### Level 1: Introduction to 5D Space
-Learn the basic mechanics of 5D movement and dimension rotation. Features a platform that only exists in certain dimensional views - you must rotate dimensions to see and reach it.
+HyperSpace5D features **11 progressively challenging levels** that teach you to master five-dimensional navigation!
 
+### Early Game: Foundation (⭐☆☆)
+
+#### Level 1: Introduction to 5D Space
+Learn the basic mechanics of 5D movement and dimension rotation. Features a platform that only exists in certain dimensional views.
 **Key Concept**: Objects can be invisible in one 3D slice but visible in another.
 
-### Level 2: 5D Platforming
-Master timing and precision with platforms that move through different dimensions. Platforms appear and disappear as they move through hidden dimensions.
-
+#### Level 2: 5D Platforming
+Master timing and precision with platforms that move through different dimensions.
 **Key Concept**: Objects moving in hidden dimensions periodically intersect with your current view.
 
-### Level 3: Hypercube Maze
-Navigate a complex maze where walls exist in some dimensional views but not others. The path through the maze only makes sense when viewing the right combination of dimensions.
-
+#### Level 3: Hypercube Maze
+Navigate a complex maze where walls exist in some dimensional views but not others.
 **Key Concept**: Strategic dimension rotation reveals different paths through the same space.
+
+### Mid Game: Advanced Puzzles (⭐⭐☆)
+
+#### Level 4: Pentacube Maze
+Navigate a 5D hypercube where each 3D slice shows a different maze section. Requires using all 10 dimensional views!
+**Key Concept**: Comprehensive dimensional rotation mastery.
+
+#### Level 5: Dimensional Bridges
+Bridges that only exist when viewing specific dimensional pairs. Must switch views mid-jump!
+**Key Concept**: Trust invisible platforms and time your dimension switches.
+
+#### Level 6: Hyperspace Teleportation
+Portals connect distant points in 5D space. What looks far in XYZ might be adjacent in XWV view.
+**Key Concept**: Non-Euclidean spatial relationships and 5D topology.
+
+#### Level 7: Phase Objects
+Objects occupy different hypervolumes - can only interact with them from certain dimensional perspectives.
+**Key Concept**: Understanding 5D occupancy and hypervolume intersection.
+
+### Late Game: Mastery Required (⭐⭐⭐)
+
+#### Level 8: 5D Rotation Puzzles
+Keys and switches require specific dimensional rotation sequences to activate. Like combination locks in 5D!
+**Key Concept**: Sequential dimensional thinking and precise control.
+
+#### Level 9: Temporal Echoes
+Objects leave "trails" in the V-dimension that persist and can be used as platforms.
+**Key Concept**: Creative use of the 5th dimension as pseudo-temporal.
+
+#### Level 10: Hypersurface Walking
+Walk on 4D hypersurfaces embedded in 5D space. The surface appears different from each 3D angle.
+**Key Concept**: Advanced topology and hypersurface intuition.
+
+### Boss Level: Ultimate Challenge (⭐⭐⭐⭐⭐)
+
+#### Level 11: The Pentarch
+Face **The Pentarch** - a 5D entity with 5 cores, each vulnerable from only one specific dimensional view! Master of all five dimensions, it attacks with 5D projectiles, creates hyperwalls, and manipulates the arena geometry. Defeat all 5 cores while dodging attacks in a dynamically changing 5D battlefield.
+**Key Concept**: Apply ALL skills learned under extreme pressure!
+
+**For detailed walkthrough and puzzle solutions**, see [LEVEL_DESIGN.md](LEVEL_DESIGN.md)
 
 ## Mathematical Explanation
 
@@ -255,12 +296,36 @@ sudo cp -r /tmp/imgui /usr/include/
 
 ## License
 
-This project is provided as an educational demonstration. Feel free to study, modify, and extend it for learning purposes.
+This is free and unencumbered software released into the **public domain** under [The Unlicense](http://unlicense.org/).
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+See the [LICENSE](LICENSE) file for complete details.
+
+## Current Features (v2.0)
+
+✓ **11 Progressive Levels** including epic boss fight  
+✓ **The Pentarch Boss** - 5D combat with dynamic arena  
+✓ **Advanced Puzzle Mechanics**:
+  - Pentacube mazes spanning all dimensional views
+  - Dimensional bridges that phase in/out
+  - Hyperspace portals and non-Euclidean connections
+  - Phase objects with selective interaction
+  - 5D rotation puzzles and combination locks
+  - Temporal echoes in the V-dimension
+  - 4D hypersurface walking
+  
+✓ **Complete Boss Fight System**:
+  - 5 cores vulnerable from different views
+  - 4 escalating phases
+  - 5D projectiles and hyperwalls
+  - Dynamic geometry manipulation
 
 ## Future Enhancements
 
 Potential additions for future versions:
 - More complex 5D shapes (hyperspheres, hyperprisms)
+- Additional boss enemies with unique 5D abilities
 - Enemies with 5D AI navigation
 - Level editor with 5D object placement
 - Multiplayer with synchronized dimensional views
@@ -268,6 +333,7 @@ Potential additions for future versions:
 - Custom shader effects for dimensional transitions
 - Sound design that reflects hidden dimensions
 - Procedurally generated 5D mazes
+- Speedrun mode and leaderboards
 
 ---
 

@@ -1,0 +1,87 @@
+# Build directories
+build/
+cmake-build-*/
+.cmake/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+HyperSpace5D
+hyperspace5d
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled Object files
+*.slo
+*.lo
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.lib
+
+# Executables
+*.out
+*.app
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Save game data
+savegame.dat
+*.sav
+
+# Log files
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Python cache (if any Python tools are used)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor backups
+*.bak
+*.backup
